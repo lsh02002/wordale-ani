@@ -1,0 +1,44 @@
+.head-box {
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid gray;
+}
+
+.head-box-menu {
+  width: 50px;
+}
+
+.head-box-title {
+  height: 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head-box-icons {
+  width: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head-box-icons img {
+  width: 30%;
+}
+
+@keyframes icons-doong-doong {
+  from {
+    transform: rotateY(360deg);
+  }
+
+  to {
+    transform: rotateY(-360deg);
+  }
+}

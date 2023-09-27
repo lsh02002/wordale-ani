@@ -1,0 +1,28 @@
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 5px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 5px;
+}
+
+.keypad-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 60px;
+  height: 60px;
+
+  border-radius: 5px;
+  background-color: gray;
+}
